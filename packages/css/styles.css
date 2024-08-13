@@ -973,7 +973,6 @@ img {
   top: 0.75rem;
   left: 1rem;
   background-color: var(--input-color);
-  padding: 0 0.25rem;
 }
 
 .contact__input {
@@ -985,6 +984,10 @@ img {
   border: none;
   outline: none;
   padding: 1.5rem 0.5rem 0.5rem 0;
+}
+
+textarea.contact__input {
+  resize: vertical;
 }
 
 /*==================== FOOTER ====================*/
