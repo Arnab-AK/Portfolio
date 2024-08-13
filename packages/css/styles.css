@@ -1026,7 +1026,8 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  /* color: var(--text-color-light); */
+  color: black;
   margin-top: var(--mb-3);
 }
 
@@ -1389,7 +1390,7 @@ img {
   white-space: nowrap; /* Keep the text in a single line */
   margin: 0; /* Remove default margin */
   font-size: 18px; /* Adjust the font size as needed */
-  animation: typing 3s steps(70) infinite; /* Animation for typing effect */
+  animation: typing 3s steps(70); /* Animation for typing effect */
 }
 
 @keyframes typing {
