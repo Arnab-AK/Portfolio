@@ -963,11 +963,17 @@ img {
   background-color: var(--input-color);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
+  position: relative;
 }
 
 .contact__label {
   font-size: var(--smaller-font-size);
   color: var(--title-color);
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  background-color: var(--input-color);
+  padding: 0 0.25rem;
 }
 
 .contact__input {
@@ -978,7 +984,7 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
-  padding: 0.25rem 0.5rem 0.5rem 0;
+  padding: 1.5rem 0.5rem 0.5rem 0;
 }
 
 /*==================== FOOTER ====================*/
